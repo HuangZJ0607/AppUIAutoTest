@@ -1,0 +1,263 @@
+20230403 17:10:38 | Log.<module>:29 | INFO | this is a info message
+20230403 17:10:38 | Log.<module>:30 | DEBUG | this is a debug message
+20230403 17:10:38 | Log.<module>:31 | ERROR | this is a error message
+20230403 18:40:52 | Driver.appium_desired:25 | INFO | 链接Android设备【3058985690000P4】中
+20230403 18:40:52 | Driver.appium_desired:32 | ERROR | 设备Android设备【3058985690000P4】链接失败！
+20230403 18:40:52 | Driver.appium_desired:33 | ERROR | can only concatenate str (not "int") to str
+20230403 18:41:26 | Driver.appium_desired:25 | INFO | 链接Android设备【3058985690000P4】中
+20230403 18:41:26 | Driver.appium_desired:32 | ERROR | 设备Android设备【3058985690000P4】链接失败!
+20230403 18:41:26 | Driver.appium_desired:33 | ERROR | HTTPConnectionPool(host='0.0.0.0', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9fd8290c90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+20230403 18:42:03 | Driver.appium_desired:25 | INFO | 链接Android设备【3058985690000P4】中
+20230403 18:42:03 | Driver.appium_desired:32 | ERROR | 设备Android设备【3058985690000P4】链接失败!
+20230403 18:42:03 | Driver.appium_desired:33 | ERROR | Message: 'platformVersion' must be of type string
+Stacktrace:
+InvalidArgumentError: 'platformVersion' must be of type string
+    at validateCaps (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/capabilities.js:52:11)
+    at parseCaps (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/capabilities.js:165:20)
+    at processCapabilities (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/capabilities.js:211:43)
+    at parseCapsForInnerDriver (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/lib/utils.js:116:21)
+    at AppiumDriver.createSession (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/lib/appium.js:325:26)
+    at commandExecutor (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/driver.js:335:9)
+    at AppiumDriver.executeCommand (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/driver.js:349:15)
+    at AppiumDriver.executeCommand (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/lib/appium.js:549:26)
+    at asyncHandler (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:297:34)
+    at /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:423:15
+    at Layer.handle [as handle_request] (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:322:22)
+20230403 18:42:31 | Driver.appium_desired:25 | INFO | 链接Android设备【3058985690000P4】中
+20230403 18:42:37 | Driver.appium_desired:32 | ERROR | 设备Android设备【3058985690000P4】链接失败!
+20230403 18:42:37 | Driver.appium_desired:33 | ERROR | Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/huangzijian/Library/Android/sdk/platform-tools/adb -P 5037 -s 3058985690000P4 shell ime enable io.appium.settings/.UnicodeIME' exited with code 255'; Command output: Unknown input method io.appium.settings/.UnicodeIME cannot be enabled for user #0
+
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/huangzijian/Library/Android/sdk/platform-tools/adb -P 5037 -s 3058985690000P4 shell ime enable io.appium.settings/.UnicodeIME' exited with code 255'; Command output: Unknown input method io.appium.settings/.UnicodeIME cannot be enabled for user #0
+
+    at getResponseForW3CError (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+20230403 18:46:02 | Driver.appium_desired:25 | INFO | 链接Android设备【3058985690000P4】中
+20230403 18:46:10 | Driver.appium_desired:29 | INFO | 链接Android设备【3058985690000P4】成功，启动com.mylive.leadlove
+20230403 18:47:59 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 18:48:06 | Driver.appium_desired:32 | ERROR | 设备Android设备【3058985690000P4】链接失败!
+20230403 18:48:06 | Driver.appium_desired:33 | ERROR | 'device_num'
+20230403 18:48:28 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 18:48:35 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230403 20:38:39 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 20:38:45 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230403 22:29:11 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 22:29:23 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 22:29:29 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230403 22:30:24 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 22:30:31 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230403 22:30:45 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 22:30:51 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230403 22:31:18 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 22:31:25 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230403 22:32:09 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 22:32:16 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230403 22:32:16 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 22:32:22 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230403 22:43:45 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 22:43:52 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230403 22:44:20 | Driver.appium_desired:25 | INFO | 链接【Android】设备【0000013348】中
+20230403 22:44:27 | Driver.appium_desired:29 | INFO | 链接Android设备【0000013348】成功，启动com.mylive.leadlove
+20230404 16:11:31 | Driver._device_name:46 | INFO | 32512
+20230404 16:11:40 | Driver._device_name:46 | INFO | 32512
+20230404 16:11:54 | Driver._device_name:46 | INFO | 32512
+20230404 16:12:55 | Driver._device_name:46 | INFO | <os._wrap_close object at 0x7fabf886f250>
+20230404 16:12:55 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:13:17 | Driver._device_name:46 | INFO | 32512
+20230404 16:17:37 | Driver._device_name:47 | INFO | CompletedProcess(args='adb devices', returncode=127)
+20230404 16:23:25 | Driver._device_name:51 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:24:02 | Driver._device_name:51 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:24:24 | Driver._device_name:51 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:24:54 | Driver._device_name:51 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:26:03 | Driver._device_name:50 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:26:09 | Driver._device_name:50 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:26:21 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:27:08 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:27:08 | Driver._device_name:57 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 16:27:26 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:27:26 | Driver._device_name:57 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 16:47:27 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:47:27 | Driver._device_name:57 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 16:47:38 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:47:38 | Driver._device_name:57 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 16:54:42 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:54:42 | Driver._device_name:57 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 16:58:23 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:58:23 | Driver._device_name:57 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 16:58:54 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 16:58:54 | Driver._device_name:57 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 17:05:34 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:05:34 | Driver._device_name:58 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 17:07:01 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:07:01 | Driver._device_name:50 | INFO | [31m请检查是否同时链接着两台设备，如若链接着两台设备请在任意adb命令中指定设备名：---> -s[0m
+20230404 17:07:15 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:07:15 | Driver._device_name:51 | INFO | [31m请检查是否同时链接着两台设备，如若链接着两台设备请在任意adb命令中指定设备名：---> -s[0m
+20230404 17:15:03 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:15:03 | Driver._device_name:58 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 17:16:38 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:16:38 | Driver._device_name:58 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 17:24:19 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:24:19 | Driver._device_name:58 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 17:28:19 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:30:27 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:30:38 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:30:59 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:35:02 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:35:26 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:35:26 | Driver._device_name:58 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 17:35:35 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:37:51 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:39:09 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:39:51 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:39:57 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:39:57 | Driver._device_name:56 | INFO | 检索到设备【3】处于链接中，正在配对
+20230404 17:40:23 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:40:23 | Driver._device_name:56 | INFO | 检索到设备【3】处于链接中，正在配对
+20230404 17:41:02 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:41:02 | Driver._device_name:56 | INFO | 检索到设备【3058985690000P4】处于链接中，正在配对
+20230404 17:42:56 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:42:56 | Driver._device_name:56 | INFO | 检索到设备【3058985690000P4】处于链接中，正在配对
+20230404 17:44:55 | Driver._device_name:48 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:44:55 | Driver._device_name:60 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 17:45:27 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:45:27 | Driver._device_name:59 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 17:45:54 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:45:54 | Driver._device_name:59 | DEBUG | 请检查当前电脑是否正确链接了设备!
+20230404 17:46:08 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:46:08 | Driver._device_name:55 | INFO | 检索到设备【3058985690000P4】处于链接中，正在配对
+20230404 17:47:01 | Driver._device_name:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:47:01 | Driver._device_name:55 | INFO | 检索到设备【3058985690000P4】处于链接中，正在配对
+20230404 17:54:04 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:56:30 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:56:47 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:57:18 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:57:40 | Driver._deviceName:46 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:58:15 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 17:58:35 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:00:58 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:01:31 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:01:34 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:04:32 | Driver._deviceName:47 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:25:10 | Driver._deviceName:49 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:25:26 | Driver._deviceName:49 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:25:27 | Driver._fullReset:82 | WARNING | 使用 fullReset 的时候尽量配合参数 "app" 使用，否则你的被测应用会被卸载，从而影响后面的用例正常执行
+20230404 18:26:38 | Driver._deviceName:49 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:26:38 | Driver._fullReset:81 | WARNING | 使用 fullReset 的时候尽量配合参数 "app" 使用，否则你的被测应用会被卸载，从而影响后面的用例正常执行
+20230404 18:26:42 | Driver._deviceName:49 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:26:42 | Driver._fullReset:80 | WARNING | 使用 fullReset 的时候尽量配合参数 "app" 使用，否则你的被测应用会被卸载，从而影响后面的用例正常执行
+20230404 18:27:35 | Driver._deviceName:49 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:27:35 | Driver._fullReset:79 | WARNING | 使用 fullReset 的时候尽量配合参数 "app" 使用，否则你的被测应用会被卸载，从而影响后面的用例正常执行
+20230404 18:27:35 | Driver.run:90 | DEBUG | {'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12', 'noReset': True, 'fullReset': True}
+20230404 18:28:07 | Driver._deviceName:49 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:28:08 | Driver._fullReset:79 | WARNING | 使用 fullReset 的时候尽量配合参数 "app" 使用，否则你的被测应用会被卸载，从而影响后面的用例正常执行
+20230404 18:28:08 | Driver.run:90 | DEBUG | 当前设备信息：{'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12', 'noReset': True, 'fullReset': True}
+20230404 18:45:41 | Driver._deviceName:52 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:45:42 | Driver.options:113 | DEBUG | 当前设备信息：{'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12', 'noReset': False, 'fullReset': False, 'newCommandTimeout': ''}
+20230404 18:46:36 | Driver._deviceName:52 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:46:36 | Driver.options:107 | DEBUG | 当前设备信息：{'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12'}
+20230404 18:55:52 | Driver._deviceName:52 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:56:03 | Driver._deviceName:52 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:56:53 | Driver._deviceName:52 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:57:29 | Driver._deviceName:52 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:57:29 | Driver.options:111 | DEBUG | {'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12'}
+20230404 18:57:36 | Driver._deviceName:52 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:57:37 | Driver.options:111 | DEBUG | {'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12'}
+20230404 18:58:16 | Driver._deviceName:52 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 18:58:16 | Driver.options:111 | DEBUG | 当前链接设备信息：{'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12'}
+20230404 19:03:27 | Driver._deviceName:63 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 19:03:27 | Driver.options:122 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'ip': '0.0.0.0', 'port': '4723', 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12'}
+20230404 19:19:14 | Driver._deviceName:68 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 19:19:15 | Driver.options:127 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'ip': '0.0.0.0', 'port': '4723', 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12'}
+20230404 20:52:29 | Driver._deviceName:68 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 20:52:29 | Driver.options:127 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'ip': '0.0.0.0', 'port': '4723', 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'vivo', 'platformVersion': '12'}
+20230404 20:52:29 | Driver.ConnectDevice:147 | ERROR | Message: 'platformName' vivo not part of fake,android,ios,tvos,windows,mac,tizen,linux,roku,webos
+Stacktrace:
+InvalidArgumentError: 'platformName' vivo not part of fake,android,ios,tvos,windows,mac,tizen,linux,roku,webos
+    at validateCaps (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/capabilities.js:52:11)
+    at parseCaps (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/capabilities.js:165:20)
+    at processCapabilities (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/capabilities.js:211:43)
+    at parseCapsForInnerDriver (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/lib/utils.js:116:21)
+    at AppiumDriver.createSession (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/lib/appium.js:325:26)
+    at commandExecutor (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/driver.js:335:9)
+    at AppiumDriver.executeCommand (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/driver.js:349:15)
+    at AppiumDriver.executeCommand (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/lib/appium.js:549:26)
+    at asyncHandler (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:297:34)
+    at /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:423:15
+    at Layer.handle [as handle_request] (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+    at /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+    at next (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+    at /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:224:16)
+    at done (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:322:22)
+20230404 20:53:04 | Driver._deviceName:68 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 20:53:04 | Driver.options:127 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'ip': '0.0.0.0', 'port': '4723', 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 20:53:25 | Driver.ConnectDevice:144 | INFO | 链接Android设备成功，启动joionlove
+20230404 21:00:17 | Driver._deviceName:55 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 21:00:17 | Driver.options:132 | DEBUG | 当前链接设备信息：{'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:00:22 | Driver.ConnectDevice:149 | INFO | 链接Android设备成功，启动joionlove
+20230404 21:07:18 | Driver._deviceName:57 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 21:07:18 | Driver.options:116 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:11:01 | Driver._deviceName:57 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 21:11:01 | Driver.options:116 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:11:01 | Driver.__init__:128 | INFO | {'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:11:01 | Driver.__init__:129 | INFO | joionlove
+20230404 21:11:07 | Driver.ConnectDevice:135 | INFO | 链接Android设备成功，启动joionlove
+20230404 21:11:17 | Driver._deviceName:57 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 21:11:17 | Driver.options:116 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:11:17 | Driver.__init__:128 | INFO | {'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:11:17 | Driver.__init__:129 | INFO | joionlove
+20230404 21:11:23 | Driver.ConnectDevice:135 | INFO | 链接Android设备成功，启动joionlove
+20230404 21:13:35 | Driver._deviceName:57 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 21:13:36 | Driver.options:116 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:14:18 | Driver._deviceName:57 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 21:14:18 | Driver.options:116 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:14:30 | Driver._deviceName:57 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 21:14:30 | Driver.options:116 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:14:37 | Driver.ConnectDevice:137 | INFO | 链接Android设备成功，启动joinlove
+20230404 21:23:31 | Driver._deviceName:57 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 21:23:31 | Driver.options:116 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:23:38 | Driver.ConnectDevice:132 | INFO | 链接Android设备成功，启动joinlove
+20230404 21:24:16 | Driver._deviceName:57 | DEBUG | 检索当前电脑所链接的设备中~请稍等
+20230404 21:24:16 | Driver.options:116 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:24:23 | Driver.ConnectDevice:132 | INFO | 链接3058985690000P4设备成功，启动joinlove~
+20230404 21:24:42 | Driver._deviceName:57 | INFO | 检索当前电脑所链接的设备中，请稍等~
+20230404 21:24:43 | Driver.options:116 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:24:50 | Driver.ConnectDevice:132 | INFO | 链接3058985690000P4设备成功，启动joinlove~
+20230404 21:28:30 | Driver._deviceName:25 | INFO | 检索当前电脑所链接的设备中，请稍等~
+20230404 21:28:30 | Driver.options:84 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 10, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 21:28:38 | Driver.ConnectDevice:100 | INFO | 链接3058985690000P4设备成功，启动joinlove~
+20230404 22:18:21 | Driver._deviceName:25 | INFO | 检索当前电脑所链接的设备中，请稍等~
+20230404 22:18:21 | Driver.options:67 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 22:18:29 | Driver.ConnectDevice:86 | INFO | 链接3058985690000P4设备成功，启动joinlove~
+20230404 22:27:53 | Driver._deviceName:23 | INFO | 检索当前电脑所链接的设备中，请稍等~
+20230404 22:27:53 | Driver.options:58 | DEBUG | 当前链接设备信息：{'appActivity': 'LauncherActivity', 'newCommandTimeout': 1000, 'noReset': True, 'fullReset': False, 'resetKeyboard': True, 'unicodeKeyboard': True, 'appPackage': 'com.mylive.leadlove', 'deviceName': '3058985690000P4', 'platformName': 'Android', 'platformVersion': '12'}
+20230404 22:28:00 | Driver.ConnectDevice:74 | INFO | 链接3058985690000P4设备成功，启动joinlove~
